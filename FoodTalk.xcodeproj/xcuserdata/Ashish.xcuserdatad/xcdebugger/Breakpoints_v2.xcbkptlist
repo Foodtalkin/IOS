@@ -575,8 +575,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
             endingLineNumber = "50"
-            landmarkName = "getDataFromWebService(_:)"
-            landmarkType = "5">
+            landmarkName = "FavoriteViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -847,7 +847,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "435"
             endingLineNumber = "435"
-            landmarkName = "loadDataPlist()"
+            landmarkName = "openRestaurantProfile(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -863,7 +863,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "444"
             endingLineNumber = "444"
-            landmarkName = "loadDataPlist()"
+            landmarkName = "openRestaurantProfile(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -879,7 +879,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "408"
             endingLineNumber = "408"
-            landmarkName = "getDataFromWebService(_:)"
+            landmarkName = "openUserProfile1(_:)"
             landmarkType = "5">
             <Locations>
                <Location
@@ -1087,7 +1087,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "464"
             endingLineNumber = "464"
-            landmarkName = "tabBarController(_:didSelectViewController:)"
+            landmarkName = "openDiscoverProfile(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1231,7 +1231,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "200"
             endingLineNumber = "200"
-            landmarkName = "application(_:didReceiveRemoteNotification:)"
+            landmarkName = "updateCall()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1279,7 +1279,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "377"
             endingLineNumber = "377"
-            landmarkName = "openDiscoverProfile(_:)"
+            landmarkName = "openOpenPostScreen(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1295,8 +1295,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "207"
             endingLineNumber = "207"
-            landmarkName = "application(_:didReceiveRemoteNotification:)"
-            landmarkType = "5">
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1535,7 +1535,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "182"
             endingLineNumber = "182"
-            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkName = "newUpdates()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

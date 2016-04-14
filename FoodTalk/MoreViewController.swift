@@ -112,7 +112,7 @@ class MoreViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        dispatch_async(dispatch_get_main_queue()) {
+        
         if(indexPath.row == 0){
             isUserInfo = true
             let openPost = self.storyboard!.instantiateViewControllerWithIdentifier("userProfileVC") as! UserProfileViewController;
@@ -143,7 +143,7 @@ class MoreViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 }
             }
         }
-        }
+        
     }
     
     func addViewsOnCell(cell : UITableViewCell, index : Int){
@@ -154,7 +154,9 @@ class MoreViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 imgView.frame = CGRectMake(18, 9, 40, 40)
             imgView.contentMode = UIViewContentMode.ScaleAspectFit
               //  loadImageAndCache(imgView,url: (dict.objectForKey("profile")?.objectForKey("thumb") as? String)!)
-                imgView.hnk_setImageFromURL(NSURL(string: (dict.objectForKey("profile")?.objectForKey("thumb") as? String)!)!)
+            dispatch_async(dispatch_get_main_queue()) {
+                imgView.hnk_setImageFromURL(NSURL(string: (self.dict.objectForKey("profile")?.objectForKey("thumb") as? String)!)!)
+            }
                 imgView.layer.cornerRadius = 20
                 imgView.layer.masksToBounds = true
                 cell.contentView.addSubview(imgView)
