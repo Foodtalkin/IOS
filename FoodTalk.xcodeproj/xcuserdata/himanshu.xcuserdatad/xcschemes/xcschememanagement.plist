@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FoodTalk.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>758283561C0EFBDE002E9EAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7582836A1C0EFBDE002E9EAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>758283751C0EFBDE002E9EAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
